@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mimo — Prototype</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f8f9fb;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    text-align: center;
+    max-width: 480px;
+    padding: 40px 24px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+  }
+  p {
+    font-size: 15px;
+    color: #6b7280;
+    margin-bottom: 32px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  a {
+    display: block;
+    padding: 16px 24px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #1a1a2e;
+    font-size: 15px;
+    font-weight: 500;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  a:hover {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99,102,241,0.1);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Mimo Prototype</h1>
+  <p>Select a prototype to view</p>
+  <div class="links">
+    <a href="balance-sheet.html">Balance Sheet Reconciliation</a>
+    <a href="bank-reconciliation.html">Bank Reconciliation</a>
+  </div>
+</div>
+</body>
+</html>
